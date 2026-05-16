@@ -234,6 +234,23 @@
     font-weight: 500;
   }
 
+  .paypal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--teal);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 999px;
+    margin-top: 0.25rem;
+    transition: background 0.15s;
+  }
+  .paypal-btn:hover { background: var(--teal-light); }
+
   /* QR SECTION */
   .qr-section {
     width: 100%;
@@ -438,6 +455,9 @@
     <div class="payment-email">
       Send to &nbsp;<strong>stumptowndg@gmail.com</strong>
     </div>
+    <a href="https://www.paypal.com/paypalme/StumptownDiscGolf" target="_blank" rel="noopener" class="paypal-btn">
+      Pay with PayPal ↗
+    </a>
   </div>
 </div>
 
